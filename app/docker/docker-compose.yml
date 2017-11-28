@@ -1,0 +1,13 @@
+version: '2'
+services:
+  db:
+    image: mongo:3.2.1
+    ports:
+      - 27017:27017
+  app:
+    image: registry.jorgeadolfo.com/server-auth:latest
+    ports:
+      - 1337:1337
+    environment:
+      - NODE_APP_INIT=admin
+      - NODE_ENV=staging

@@ -1,0 +1,4 @@
+node_modules
+deploy/update.retry
+dist.gz
+test

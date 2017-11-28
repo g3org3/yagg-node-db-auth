@@ -1,0 +1,19 @@
+{
+  "name": "pre-pkg",
+  "dependencies": {
+    "body-parser": "~1.17.2",
+    "confidence": "~3.0.2",
+    "cookie-parser": "~1.4.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.3",
+    "express-jwt": "~5.3.0",
+    "express-session": "~1.15.3",
+    "immutable": "~3.8.1",
+    "jsonwebtoken": "~7.4.1",
+    "mongoose": "~4.11.1",
+    "morgan": "~1.8.2",
+    "passport": "~0.3.2",
+    "passport-local": "~1.0.0",
+    "purdy": "~2.2.1"
+ }
+}
